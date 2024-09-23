@@ -1,0 +1,15 @@
+user01:
+  email:  p2r7@gmail.com
+  password: 12345678_Test
+  cf_password:  12345678_Test
+  product:  Phone
+  name: Sittipol
+  surname:  Parnthong
+  address:  123/300
+  phone:  0639981851
+  creditcard: 4111111111111111    
+  exp:  11/2025    
+  cvc:  123
+
+Seach:
+  text: phone
