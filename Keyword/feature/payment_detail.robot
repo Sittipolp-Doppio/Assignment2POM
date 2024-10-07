@@ -7,5 +7,5 @@ Enter payment details
     payment_detail_page.Payment cv input    ${cv}
     payment_detail_page.Payment Cardname input    ${card_name}
     payment_detail_page.Click payment button
-    payment_detail_page.Click okpayment button
+    common.Click popup
     payment_detail_page.Table check

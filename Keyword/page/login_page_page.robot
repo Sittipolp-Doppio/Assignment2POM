@@ -10,6 +10,3 @@ Input password login
 
 Click login button
     common.Click when ready    ${login_button}
-
-Click loginok 
-    common.Click popup

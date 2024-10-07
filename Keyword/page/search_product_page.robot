@@ -7,6 +7,6 @@ Click first element
     common.Click when ready    ${first_result}
 Add cart
     common.Click when ready    ${addcart}
-    common.Click popup
+
 Click cart
     common.Click when ready   ${cart}
