@@ -40,7 +40,7 @@
 </kw>
 <kw name="Login" owner="LoginPage">
 <kw name="Input Username Login" owner="LoginPage_Page">
-<kw name="Input Text" owner="SeleniumLibrary">
+<kw name="input text" owner="SeleniumLibrary">
 <msg time="2024-09-23T23:25:50.730670" level="INFO">Typing text 'p2r7@gmail.com' into text field 'xpath=//*[@id="app"]/section/div/div /form/div[1]/div/div[2]/div/div/span/input'.</msg>
 <arg>${Username_login}</arg>
 <arg>${Email2}</arg>
@@ -51,7 +51,7 @@
 <status status="PASS" start="2024-09-23T23:25:50.729693" elapsed="0.106384"/>
 </kw>
 <kw name="Input Password Login" owner="LoginPage_Page">
-<kw name="Input Text" owner="SeleniumLibrary">
+<kw name="input text" owner="SeleniumLibrary">
 <msg time="2024-09-23T23:25:50.839023" level="INFO">Typing text '12345678_Test' into text field 'xpath=//*[@id="app"]/section/div/div /form/div[2]/div/div[2]/div/div/span/input'.</msg>
 <arg>${Password_login}</arg>
 <arg>${Password2}</arg>
@@ -96,7 +96,7 @@
 <status status="PASS" start="2024-09-23T23:25:50.727742" elapsed="0.772990"/>
 </kw>
 <kw name="Search Product" owner="SearchProduct">
-<kw name="Input Text" owner="SeleniumLibrary">
+<kw name="input text" owner="SeleniumLibrary">
 <msg time="2024-09-23T23:25:51.502685" level="INFO">Typing text 'phone' into text field 'xpath=//*[@id="app"]/section/div/div[1]/span/span/input'.</msg>
 <arg>${SEARCH_BOX}</arg>
 <arg>${Text}</arg>
@@ -174,7 +174,7 @@
 <status status="PASS" start="2024-09-23T23:25:52.843559" elapsed="2.002292"/>
 </kw>
 <kw name="Fill Name Delivery Details" owner="Fill_Delivery_Page">
-<kw name="Input Text" owner="SeleniumLibrary">
+<kw name="input text" owner="SeleniumLibrary">
 <msg time="2024-09-23T23:25:54.847769" level="INFO">Typing text 'Sittipol' into text field 'xpath=//*[@id="form_item_name"]'.</msg>
 <arg>${Delivery_Name}</arg>
 <arg>${Name}</arg>
@@ -185,7 +185,7 @@
 <status status="PASS" start="2024-09-23T23:25:54.846792" elapsed="0.112240"/>
 </kw>
 <kw name="Fill Surname Delivery Details" owner="Fill_Delivery_Page">
-<kw name="Input Text" owner="SeleniumLibrary">
+<kw name="input text" owner="SeleniumLibrary">
 <msg time="2024-09-23T23:25:54.960008" level="INFO">Typing text 'Parnthong' into text field 'xpath=//*[@id="form_item_surName"]'.</msg>
 <arg>${Delivery_Surname}</arg>
 <arg>${Surname}</arg>
@@ -196,7 +196,7 @@
 <status status="PASS" start="2024-09-23T23:25:54.959032" elapsed="0.097600"/>
 </kw>
 <kw name="Fill Address Delivery Details" owner="Fill_Delivery_Page">
-<kw name="Input Text" owner="SeleniumLibrary">
+<kw name="input text" owner="SeleniumLibrary">
 <msg time="2024-09-23T23:25:55.057608" level="INFO">Typing text '123/300' into text field 'xpath=//*[@id="form_item_address"]'.</msg>
 <arg>${Delivery_Address}</arg>
 <arg>${Address}</arg>
@@ -207,7 +207,7 @@
 <status status="PASS" start="2024-09-23T23:25:55.056632" elapsed="0.096624"/>
 </kw>
 <kw name="Fill Phone Delivery Details" owner="Fill_Delivery_Page">
-<kw name="Input Text" owner="SeleniumLibrary">
+<kw name="input text" owner="SeleniumLibrary">
 <msg time="2024-09-23T23:25:55.155209" level="INFO">Typing text '0639981851' into text field 'xpath=//*[@id="form_item_phone"]'.</msg>
 <arg>${Delivery_phone}</arg>
 <arg>${phone}</arg>
@@ -255,7 +255,7 @@
 <status status="PASS" start="2024-09-23T23:25:55.376759" elapsed="0.152257"/>
 </kw>
 <kw name="Payment CardNumber Input" owner="Payment_Detail_Page">
-<kw name="Input Text" owner="SeleniumLibrary">
+<kw name="input text" owner="SeleniumLibrary">
 <msg time="2024-09-23T23:25:55.530968" level="INFO">Typing text '4111111111111111' into text field 'xpath=//*[@id="basic_bin"]'.</msg>
 <arg>${Paymeny_CardNumber}</arg>
 <arg>${Card_Number}</arg>
@@ -266,7 +266,7 @@
 <status status="PASS" start="2024-09-23T23:25:55.529993" elapsed="0.113215"/>
 </kw>
 <kw name="Payment Exp Input" owner="Payment_Detail_Page">
-<kw name="Input Text" owner="SeleniumLibrary">
+<kw name="input text" owner="SeleniumLibrary">
 <msg time="2024-09-23T23:25:55.644183" level="INFO">Typing text '11/2025' into text field 'xpath=//*[@id="basic_exp"]'.</msg>
 <arg>${Payment_Exp}</arg>
 <arg>${Exp}</arg>
@@ -277,7 +277,7 @@
 <status status="PASS" start="2024-09-23T23:25:55.644183" elapsed="0.081985"/>
 </kw>
 <kw name="Payment CV Input" owner="Payment_Detail_Page">
-<kw name="Input Text" owner="SeleniumLibrary">
+<kw name="input text" owner="SeleniumLibrary">
 <msg time="2024-09-23T23:25:55.727143" level="INFO">Typing text '123' into text field 'xpath=//*[@id="basic_cvc"]'.</msg>
 <arg>${Payment_CV}</arg>
 <arg>${CV}</arg>
@@ -288,7 +288,7 @@
 <status status="PASS" start="2024-09-23T23:25:55.726168" elapsed="0.069295"/>
 </kw>
 <kw name="Payment CardName Input" owner="Payment_Detail_Page">
-<kw name="Input Text" owner="SeleniumLibrary">
+<kw name="input text" owner="SeleniumLibrary">
 <msg time="2024-09-23T23:25:55.796439" level="INFO">Typing text 'Sittipol' into text field 'xpath=//*[@id="basic_owner"]'.</msg>
 <arg>${Payment_name}</arg>
 <arg>${Card_Name}</arg>
