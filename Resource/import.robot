@@ -1,6 +1,7 @@
 
 *** Settings ***
 Library    SeleniumLibrary
+Library    DebugLibrary
 Library    String
 
 Variables    ${CURDIR}../../Resource/TestData/data.yaml
@@ -23,9 +24,9 @@ Resource    ${CURDIR}../../Keyword/page/regis_user_page.robot
 Resource    ${CURDIR}../../Keyword/page/search_product_page.robot
 Resource    ${CURDIR}../../Keyword/page/sign_up_page.robot
 
-Resource   ${CURDIR}../../Keyword/locator/cart_page_locator.robot
-Resource   ${CURDIR}../../Keyword/locator/login_page_locator.robot
-Resource   ${CURDIR}../../Keyword/locator/common_locator.robot
+Resource    ${CURDIR}../../Keyword/locator/cart_page_locator.robot
+Resource    ${CURDIR}../../Keyword/locator/login_page_locator.robot
+Resource    ${CURDIR}../../Keyword/locator/common_locator.robot
 Resource    ${CURDIR}../../Keyword/locator/payment_page_locator.robot
 Resource    ${CURDIR}../../Keyword/locator/regis_page_locators.robot
 Resource    ${CURDIR}../../Keyword/locator/search_page_locator.robot

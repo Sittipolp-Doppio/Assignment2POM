@@ -1,8 +1,14 @@
+*** Settings ***
+Library    DebugLibrary
 *** Keywords ***
 Fill name delivery details
-    [Arguments]    ${text_name}    
-    Sleep    2s
-    common.input text when ready    ${delivery_name}   ${text_name}
+    [Arguments]    ${text_name}
+    FOR    ${i}    IN RANGE    1    ${setup.max_attempts}
+        common.input text when ready    ${delivery_name}    ${text_name}
+        ${verify_text}=    Get Text    ${delivery_name}
+        ${status}=    Run Keyword And Return Status    Should Be Equal    ${verify_text}    ${text_name}
+        Exit For Loop If    ${status} == True
+    END
 Fill surname delivery details
     [Arguments]    ${text_surname}   
     common.input text when ready    ${delivery_surname}    ${text_surname}  

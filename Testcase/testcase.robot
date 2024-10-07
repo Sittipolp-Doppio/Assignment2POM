@@ -9,7 +9,7 @@ Tc01-Regis
     sign_up_page.Navigate to sign up page
     regis_user.Register new user    ${user01.email}    ${user01.password}    ${user01.cf_password}
     
-Tc02-Login 
+Tc02-Login
     regis_page.Navigate to registration page
     login_page.Login    ${user01.email}    ${user01.password}
     search_product.Search product and add to cart    ${Seach.text}

@@ -26,7 +26,7 @@ Click okpayment button
 
 Table check
     common.Click when ready    ${profile}
-    SeleniumLibrary.wait until element is visible    ${td_check}    timeout=10s
+    SeleniumLibrary.wait until element is visible    ${td_check}    timeout=${setup.wait_time}
     ${td_text}=    Get Text    ${td_check}
     ${order_text}=    Get Text    ${order_text}
 
