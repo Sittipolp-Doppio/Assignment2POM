@@ -1,6 +1,4 @@
 *** Keywords ***
-
-
 Input regisuser 
     [Arguments]    ${email}
     common.input text when ready    ${email_input}    ${email}

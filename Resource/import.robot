@@ -10,13 +10,13 @@ Variables    ${CURDIR}../../Resource/Setting/setting_fix.yaml
 Resource     ${CURDIR}./../Keyword/Common/common.robot
 
 Resource     ${CURDIR}../../Keyword/feature/fill_delivery.robot
-Resource     ${CURDIR}../../Keyword/feature/login_page.robot
+Resource     ${CURDIR}../../Keyword/feature/login_page_featues.robot
 Resource     ${CURDIR}../../Keyword/feature/payment_detail.robot
 Resource     ${CURDIR}../../Keyword/feature/regis_user.robot
 Resource     ${CURDIR}../../Keyword/feature/search_product.robot
 
 Resource    ${CURDIR}../../Keyword/page/fill_delivery_page.robot
-Resource    ${CURDIR}../../Keyword/page/login_page_page.robot
+Resource    ${CURDIR}../../Keyword/page/login_page.robot
 Resource    ${CURDIR}../../Keyword/page/open_close.robot
 Resource    ${CURDIR}../../Keyword/page/payment_detail_page.robot
 Resource    ${CURDIR}../../Keyword/page/regis_page.robot

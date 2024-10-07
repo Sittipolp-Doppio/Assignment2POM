@@ -1,5 +1,3 @@
-*** Settings ***
-Library    DebugLibrary
 *** Keywords ***
 Fill name delivery details
     [Arguments]    ${text_name}
@@ -7,7 +5,7 @@ Fill name delivery details
         common.input text when ready    ${delivery_name}    ${text_name}
         ${verify_text}=    Get Text    ${delivery_name}
         ${status}=    Run Keyword And Return Status    Should Be Equal    ${verify_text}    ${text_name}
-        Exit For Loop If    ${status} == True
+        Exit For Loop If    ${status}
     END
 Fill surname delivery details
     [Arguments]    ${text_surname}   

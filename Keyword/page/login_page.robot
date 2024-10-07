@@ -1,5 +1,4 @@
 *** Keywords ***
-
 Input username login
     [Arguments]    ${email2}
     common.input text when ready    ${username_login}   ${email2}
