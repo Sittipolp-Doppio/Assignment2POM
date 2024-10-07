@@ -12,4 +12,4 @@ Click login button
     common.Click when ready    ${login_button}
 
 Click loginok 
-    common.Click when ready    ${okbutton}
+    common.Click popup

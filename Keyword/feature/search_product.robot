@@ -1,8 +1,3 @@
-*** Settings ***
-Library    SeleniumLibrary
-Resource   ../../Resource/import.robot
-
-
 *** Keywords ***
 Search product and add to cart
     [Arguments]    ${text} 

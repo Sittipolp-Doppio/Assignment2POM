@@ -1,6 +1,3 @@
-*** Settings ***
-Library    SeleniumLibrary
-
 *** Keywords ***
 Open browser to url
     [Arguments]    ${url}

@@ -1,8 +1,3 @@
-*** Settings ***
-Library    SeleniumLibrary
-Resource   ../page/import.robot
-
-
 *** Keywords ***
 Register new user
     [Arguments]    ${email}    ${password}    ${confirmpass}

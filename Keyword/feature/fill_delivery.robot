@@ -1,7 +1,3 @@
-*** Settings ***
-Library    SeleniumLibrary
-Resource   ../../Resource/import.robot
-
 *** Keywords ***
 Fill delivery details
     [Arguments]    ${name}    ${surname}    ${address}    ${phone}

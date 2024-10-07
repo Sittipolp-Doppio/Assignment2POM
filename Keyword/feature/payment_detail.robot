@@ -1,8 +1,3 @@
-*** Settings ***
-Library    SeleniumLibrary
-Resource   ../page/import.robot
-
-
 *** Keywords ***
 Enter payment details
     [Arguments]    ${card_number}    ${exp}    ${cv}    ${card_name}

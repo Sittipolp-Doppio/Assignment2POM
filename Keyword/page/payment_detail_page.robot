@@ -4,25 +4,25 @@ Click button next
 
 Payment cardnumber input
     [Arguments]    ${card_number} 
-    common.Input text when ready    ${payment_cardnumber}    ${card_number}
+    common.input text when ready    ${payment_cardnumber}    ${card_number}
 
 Payment exp input
     [Arguments]    ${exp} 
-    common.Input text when ready   ${payment_exp}    ${exp}
+    common.input text when ready   ${payment_exp}    ${exp}
 
 Payment cv input
     [Arguments]    ${cv} 
-    common.Input text when ready    ${payment_cv}     ${cv}
+    common.input text when ready    ${payment_cv}     ${cv}
 
 Payment cardname input
     [Arguments]   ${card_name} 
-    common.Input text when ready    ${payment_name}    ${card_name}
+    common.input text when ready    ${payment_name}    ${card_name}
 
 Click payment button
     common.Click when ready    ${payment_button}
 
 Click okpayment button
-    common.Click when ready    ${okbutton}  
+    common.Click popup
 
 Table check
     common.Click when ready    ${profile}

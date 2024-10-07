@@ -11,5 +11,5 @@ input text when ready
     SeleniumLibrary.input text    ${locator}    ${text}
 
 Click popup
-    SeleniumLibrary.wait until element is visible   ${login_okbutton}      5s
-    SeleniumLibrary.click element    ${login_okbutton} 
+    SeleniumLibrary.wait until element is visible   ${okbutton}    5s
+    SeleniumLibrary.click element    ${okbutton}

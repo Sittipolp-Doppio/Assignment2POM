@@ -1,7 +1,3 @@
-*** Settings ***
-Library    SeleniumLibrary
-Resource   ../page/import.robot
-
 *** Keywords ***
 
 Login
