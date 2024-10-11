@@ -29,9 +29,7 @@ Table check
     SeleniumLibrary.wait until element is visible    ${td_check}    timeout=${setup.wait_time}
     ${td_text}=    Get Text    ${td_check}
     ${order_text}=    Get Text    ${order_text}
-
-    common.Click when ready    ${preparing}
-
+    
     BuiltIn.log to console     Order Text == ${order_text}
     BuiltIn.log to console     Table == ${td_text}
 
