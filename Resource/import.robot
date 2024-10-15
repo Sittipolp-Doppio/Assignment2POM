@@ -24,10 +24,10 @@ Resource    ${CURDIR}../../Keyword/page/regis_user_page.robot
 Resource    ${CURDIR}../../Keyword/page/search_product_page.robot
 Resource    ${CURDIR}../../Keyword/page/sign_up_page.robot
 
-Resource    ${CURDIR}../../Keyword/locator/cart_page_locator.robot
-Resource    ${CURDIR}../../Keyword/locator/login_page_locator.robot
-Resource    ${CURDIR}../../Keyword/locator/common_locator.robot
-Resource    ${CURDIR}../../Keyword/locator/payment_page_locator.robot
-Resource    ${CURDIR}../../Keyword/locator/regis_page_locators.robot
-Resource    ${CURDIR}../../Keyword/locator/search_page_locator.robot
-Resource    ${CURDIR}../../Keyword/locator/table_page_locator.robot
+Resource    ${CURDIR}../../Resource/locator/cart_page_locator.robot
+Resource    ${CURDIR}../../Resource/locator/login_page_locator.robot
+Resource    ${CURDIR}../../Resource/locator/common_locator.robot
+Resource    ${CURDIR}../../Resource/locator/payment_page_locator.robot
+Resource    ${CURDIR}../../Resource/locator/regis_page_locators.robot
+Resource    ${CURDIR}../../Resource/locator/search_page_locator.robot
+Resource    ${CURDIR}../../Resource/locator/table_page_locator.robot
