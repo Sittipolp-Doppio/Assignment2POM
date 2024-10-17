@@ -1,5 +1,5 @@
 *** Settings ***
-Resource    ../Resource/import.robot
+Resource    ${CURDIR}../Resource/import.robot
 Suite Setup    open_close.Open browser to url    ${UAT.url}
 Suite Teardown    open_close.Close
 
